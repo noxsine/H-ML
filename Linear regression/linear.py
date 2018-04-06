@@ -51,5 +51,5 @@ plt.plot(x_data, sess.run(W) * x_data + sess.run(b), label="Fitted line") # 画�
 plt.legend()
 plt.xlabel('x')
 plt.ylabel('y')
-plt.show()
+plt.show()                                                                # 显示
 sess.close()
